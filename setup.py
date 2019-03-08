@@ -20,7 +20,7 @@ setup(
 	version = '1.0.0',
 	description = 'A simple interface for the block chain',
 	long_description = long_description,
-	url = 'https://corp.vippool.net/',
+	url = 'https://github.com/vippool/storage',
 	author = 'VIPPOOL Inc.',
 	author_email = 'contact@vippool.net',
 	classifiers = [
