@@ -25,3 +25,9 @@ $ pip install vippool_storage
 ## 使用方法
 
 リポジトリの sample.py をご覧ください。
+
+## ライセンス
+
+(C) 2019-2019 VIPPOOL Inc.
+
+このプロジェクトは、MIT ライセンスで提供されます。
