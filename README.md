@@ -26,6 +26,14 @@ $ pip install vippool_storage
 
 リポジトリの sample.py をご覧ください。
 
+## 連絡先
+
+お問い合わせ、ご要望、バグ報告等は、github の issue へお気軽にどうぞ。
+https://github.com/vippool/storage/issues
+
+もしくは、開発チームまでメールいただいても構いません。
+dev-team@vippool.net
+
 ## ライセンス
 
 (C) 2019-2019 VIPPOOL Inc.
