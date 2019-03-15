@@ -22,7 +22,7 @@ setup(
 	long_description = long_description,
 	url = 'https://github.com/vippool/storage',
 	author = 'VIPPOOL Inc.',
-	author_email = 'contact@vippool.net',
+	author_email = 'dev-team@vippool.net',
 	classifiers = [
 		'Development Status :: 3 - Alpha',
 		'Intended Audience :: Developers',
