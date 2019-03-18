@@ -1,41 +1,41 @@
 # vippool-storage
 
-���̃v���W�F�N�g�́A������� VIPPOOL ���^�p���Ă���
-vippool-clerk �T�[�r�X�փA�N�Z�X���邱�ƂŁA
-Python ����ȒP�Ƀ��i�R�C���̃u���b�N�`�F�[���ւ�
-�f�[�^�������݁E�ǂݍ��݂��ł��郉�C�u�����ł��B
+このプロジェクトは、株式会社 VIPPOOL が運用している
+vippool-clerk サービスへアクセスすることで、
+Python から簡単にモナコインのブロックチェーンへの
+データ書き込み・読み込みができるライブラリです。
 
-## �ł��邱��
+## できること
 
-�閧���ɑΉ�����R�C���A�h���X�́A���݂̎c����m�邱�Ƃ��o���܂��B
+秘密鍵に対応するコインアドレスの、現在の残高を知ることが出来ます。
 
-�閧���ɑΉ�����R�C���A�h���X����A�ʂ̃R�C���A�h���X�֑������邱�Ƃ��ł��܂��B
+秘密鍵に対応するコインアドレスから、別のコインアドレスへ送金することができます。
 
-�u���b�N�`�F�[���ɔC�ӂ̃f�[�^����������ނ��Ƃ��ł��܂��B
-�i�ʓr�g�����U�N�V�����萔�����K�v�ł��j�B
+ブロックチェーンに任意のデータ列を書き込むことができます。
+（別途トランザクション手数料が必要です）。
 
-�u���b�N�`�F�[���ɏ������܂ꂽ�C�Ӄf�[�^��ǂݍ��ނ��Ƃ��ł��܂��B
+ブロックチェーンに書き込まれた任意データを読み込むことができます。
 
-## �C���X�g�[�����@
+## インストール方法
 
-pip ��p���ăC���X�g�[�����\�ł��B
+pip を用いてインストールが可能です。
 
 $ pip install vippool_storage
 
-## �g�p���@
+## 使用方法
 
-���|�W�g���� sample.py ���������������B
+リポジトリの sample.py をご覧ください。
 
-## �A����
+## 連絡先
 
-���₢���킹�A���v�]�A�o�O�񍐓��́Agithub �� issue �ւ��C�y�ɂǂ����B
+お問い合わせ、ご要望、バグ報告等は、github の issue へお気軽にどうぞ。
 https://github.com/vippool/storage/issues
 
-�������́A�J���`�[���܂Ń��[�����������Ă��\���܂���B
+もしくは、開発チームまでメールいただいても構いません。
 dev-team@vippool.net
 
-## ���C�Z���X
+## ライセンス
 
 (C) 2019-2019 VIPPOOL Inc.
 
-���̃v���W�F�N�g�́AMIT ���C�Z���X�Œ񋟂���܂��B
+このプロジェクトは、MIT ライセンスで提供されます。
