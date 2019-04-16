@@ -24,10 +24,10 @@ pip を用いてインストールが可能です。
 
 ## 連絡先
 
-お問い合わせ、ご要望、バグ報告等は、github の issue へお気軽にどうぞ。
+お問い合わせ、ご要望、バグ報告等は、github の issue へお気軽にどうぞ。  
 https://github.com/vippool/storage/issues
 
-もしくは、開発チームまでメールいただいても構いません。
+もしくは、開発チームまでメールいただいても構いません。  
 dev-team@vippool.net
 
 ## ライセンス
