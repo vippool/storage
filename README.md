@@ -20,7 +20,7 @@ Python から簡単にモナコインのブロックチェーンへの
 
 pip を用いてインストールが可能です。
 
-$ pip install vippool_storage
+> $ pip install vippool_storage
 
 ## 使用方法
 
