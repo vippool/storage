@@ -1,5 +1,7 @@
 # vippool-storage
 
+English: [README.en.md](README.en.md)
+
 このプロジェクトは、株式会社 VIPPOOL が運用している
 vippool-clerk サービスへアクセスすることで、
 Python から簡単にモナコインのブロックチェーンへの
