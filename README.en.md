@@ -5,8 +5,8 @@ and let you use Python to easily write to and read from the MonaCoin blockchain.
 
 ## Features
 
-1. Consult the current balance of a coin-address for which you own the private key.
-2. Send coins to some other coin-address, from a coin-address for which you own the private key.
+1. Consult the current balance of a coin-address for your private key.
+2. Send coins to some other coin-address, from a coin-address for your private key.
 3. Write arbitrary data to the blockchain. (requires a separate transaction fee)
 4. Read arbitrary data from the blockchain.
 
