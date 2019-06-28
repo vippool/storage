@@ -77,7 +77,7 @@ def sqrt( x, y ):
 	r = pow( x, (t + 1) / 2, y )
 
 	for i in range( s - 2, -1, -1 ):
-		n = long( 1 ) << i
+		n = int( 1 ) << i
 		d = pow( r * r * xi, n, y )
 		if d != 1:
 			r = r * b % y
@@ -281,11 +281,11 @@ class ec_point:
 			print( 'ng.' )
 
 		# 適当な秘密鍵
-		r = p.scalar( long( 'D2E85CC6AC3A6701040D7E9B57F1F24CD748A20626F06F2D5844059D024F5256', 16 ) )
+		r = p.scalar( int( 'D2E85CC6AC3A6701040D7E9B57F1F24CD748A20626F06F2D5844059D024F5256', 16 ) )
 		x, y = r.affine()
 		print( 'x: %064x' % x )
 		print( 'y: %064x' % y )
-		if x == long( 'D76F60853013746C8D0160CDCF2630309A2170D105FF6C96503F46A1A0BCC4D8', 16 ) and y == long( '0F9D1C3D8AC0C2D8C589A839E226D60FFD513B3941AC92DC20EDF6EF337BC4E0', 16 ):
+		if x == int( 'D76F60853013746C8D0160CDCF2630309A2170D105FF6C96503F46A1A0BCC4D8', 16 ) and y == int( '0F9D1C3D8AC0C2D8C589A839E226D60FFD513B3941AC92DC20EDF6EF337BC4E0', 16 ):
 			print( 'ok.' )
 		else:
 			print( 'ng.' )
@@ -296,7 +296,7 @@ class ECDSA:
 		if privKey is None:
 			# [ 1, n-1 ] の範囲で乱数を生成する
 			while True:
-				k = long( hexlify( urandom( 32 ) ), 16 )
+				k = int( hexlify( urandom( 32 ) ), 16 )
 				if k != 0 and k < ec_prm_n:
 					break
 
@@ -382,12 +382,12 @@ class ECDSA:
 
 		# uncompressed 形式の場合は X, Y 座標が連続している
 		if pubKey[0] == 0x04 and len( pubKey ) == 65:
-			x = long( hexlify( pubKey[1:33] ), 16 )
-			y = long( hexlify( pubKey[33:65] ), 16 )
+			x = int( hexlify( pubKey[1:33] ), 16 )
+			y = int( hexlify( pubKey[33:65] ), 16 )
 
 		# compressed 形式の場合は X 座標を取り出してから計算する
 		if (pubKey[0] == 0x02 or pubKey[0] == 0x03) and len( pubKey ) == 33:
-			x = long( hexlify( pubKey[1:33] ), 16 )
+			x = int( hexlify( pubKey[1:33] ), 16 )
 			y_2 = x * x * x + ec_prm_a * x + ec_prm_b
 			y = sqrt( y_2, ec_prm_p )
 
@@ -402,7 +402,7 @@ class ECDSA:
 		ec_point.selfTest()
 
 		for i in range( 0, 10 ):
-			h = long( hexlify( urandom( 32 ) ), 16 )
+			h = int( hexlify( urandom( 32 ) ), 16 )
 			k = ECDSA()
 			pkx, pky = k.pubKey()
 
