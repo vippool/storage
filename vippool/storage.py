@@ -11,6 +11,7 @@ from binascii import hexlify
 from binascii import unhexlify
 from os import urandom
 from six.moves.urllib.parse import urlencode
+from future.builtins.misc import pow
 import http.client
 import json
 
@@ -74,7 +75,7 @@ def sqrt( x, y ):
 	xi = inverse( x, y )
 
 	# x の (t+1)/2 乗を求める
-	r = pow( x, (t + 1) / 2, y )
+	r = pow( x, (t + 1) // 2, y )
 
 	for i in range( s - 2, -1, -1 ):
 		n = int( 1 ) << i
