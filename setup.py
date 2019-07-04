@@ -17,7 +17,7 @@ with open( path.join( here, 'README.en.md' ), encoding = 'utf-8' ) as f:
 
 setup(
 	name = 'vippool_storage',
-	version = '1.1.4',
+	version = '1.1.5',
 	description = 'A simple interface for the block chain',
 	long_description = long_description,
 	long_description_content_type = 'text/markdown',
