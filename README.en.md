@@ -1,7 +1,10 @@
 # vippool-storage
 
-This project provides a library to access the vippool-clerk service, which is run by VIPPOOL Corp.,
+This project provides a library to access the vippool-clerk service, which was run by VIPPOOL Corp.,
 and let you use Python to easily write to and read from the MonaCoin blockchain.
+
+The vippool-clerk service is not in operation at this time.
+You will need to set up your own server.
 
 ## Features
 
@@ -29,6 +32,6 @@ dev-team@vippool.net
 
 ## License
 
-(C) 2019-2021 VIPPOOL Inc.
+(C) 2019-2022 VIPPOOL Inc.
 
 This project is published under the MIT license.
