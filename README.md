@@ -2,10 +2,13 @@
 
 English: [README.en.md](README.en.md)
 
-このプロジェクトは、株式会社 VIPPOOL が運用している
+このプロジェクトは、株式会社 VIPPOOL が開発した
 vippool-clerk サービスへアクセスすることで、
 Python から簡単にモナコインのブロックチェーンへの
 データ書き込み・読み込みができるライブラリです。
+
+現在は vippool-clerk サービスの運用を行っておりませんので、
+各自によりサーバを立ち上げる必要があります。
 
 ## できること
 
@@ -34,6 +37,6 @@ dev-team@vippool.net
 
 ## ライセンス
 
-(C) 2019-2021 VIPPOOL Inc.
+(C) 2019-2022 VIPPOOL Inc.
 
 このプロジェクトは、MIT ライセンスで提供されます。

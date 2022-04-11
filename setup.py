@@ -17,7 +17,7 @@ with open( path.join( here, 'README.en.md' ), encoding = 'utf-8' ) as f:
 
 setup(
 	name = 'vippool_storage',
-	version = '1.1.5',
+	version = '1.1.6',
 	description = 'A simple interface for the block chain',
 	long_description = long_description,
 	long_description_content_type = 'text/markdown',
@@ -25,13 +25,13 @@ setup(
 	author = 'VIPPOOL Inc.',
 	author_email = 'dev-team@vippool.net',
 	classifiers = [
-		'Development Status :: 4 - Beta',
 		'Intended Audience :: Developers',
 		'License :: OSI Approved :: MIT License',
 		'Programming Language :: Python :: 2',
 		'Programming Language :: Python :: 2.7',
 		'Programming Language :: Python :: 3',
 		'Programming Language :: Python :: 3.5',
+		'Programming Language :: Python :: 3.8',
 	],
 	keywords = 'blockchain',
 	packages = find_packages( exclude = [ 'tests' ] ),
